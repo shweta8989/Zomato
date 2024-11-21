@@ -1,0 +1,319 @@
+.banner{
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./image/mainBanner.jpg);
+  
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  list-style: none;
+}
+.main{
+  width: 1170px;
+  margin: auto;
+}
+.app{
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+}
+.logIn{
+  list-style: none;
+  display: flex;
+}
+.right li{
+  font-size: 18px;
+  padding-left: 35px;
+  font-weight: 350;
+}
+.zomato{
+  max-width: 280px;
+  text-align: center;
+  padding-top: 50px;
+}
+.discover{
+  display: flex;
+  padding-left: 190px;
+  padding-top: 35px;
+  
+}
+.discover h1{
+  font-size: 40px;
+  font-weight: 400;
+}
+.discover span{
+  font-size: 37px;
+  font-weight: 600;
+}
+.discover1{
+  background-color: white;
+  border-radius: 8px;
+  width: 800px;
+  margin: auto;
+  margin-left: 150px;
+  padding: 15px 0px 0px 0px;
+  /* letter-spacing: 1px; */
+  color: gray;
+
+}
+.location{
+  display: flex;
+  color: gray;
+  
+}
+.icon{
+  font-size: 20px;
+}
+.location p{
+  color: gray;
+}
+.toolTip{
+  font-size: 20px;
+  margin-top: 3px;
+  margin-left: 20px;
+  color: gray;
+}
+.toolTip1{
+  font-size: 25px;
+  margin-top: 1px;
+  color: gray;
+}
+.search{
+  display: flex;
+
+}
+.card1{
+  width: 1100px;
+  margin: auto;
+  
+}
+.card{
+  transition: 1.5s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card-text{
+  font-size: 18px;
+  color: gray;
+
+}
+.collect{
+  margin: auto;
+  width: 1100px;
+  /*  */
+}
+.collect-c{
+  margin: auto;
+  width: 1100px;
+  padding-bottom: 110px;
+}
+/* /* .card{
+  width: 520px;
+  height: 260px;
+}
+.card-img-top{
+  width: 100%;
+  height: 100%;
+} */
+ .heading{
+  /* padding-left: 110px; */
+  padding-top: 80px;
+  font-size: 38px;
+  font-weight: 400;
+ }
+ .collect1{
+  /* margin: auto; */
+  /* width: 1150px; */
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(59, 55, 55);
+ }
+ .font{
+  font-size: 18px;
+  color: red;
+  font-weight: 100;
+  padding-left: 20px;
+ }
+ .overlay{
+  width: 260px;
+ }
+ .img-overlay{
+  top: 75%;
+ }
+ .outer-overlay{
+  width: 261px;
+  height: 310px;
+  
+ }
+ .font1{
+  font-size: 18px;
+  font-weight: 400;
+ }
+ .font2{
+  font-size: 38px;
+  font-weight: 350;
+ }
+ .span{
+  font-weight: 450;
+ }
+ .card-a{
+  box-shadow: 0px 0px 2px 0px grey;
+  border-radius: 5px;
+  padding: 12px;
+  
+ }
+ .icon-a{
+  margin-left: 15px;
+  margin-top: 18px;
+  font-size: 19px;
+ }
+ .card-a:hover{
+  box-shadow: 0px 0px 4px 0px gray;
+ }
+ .card-title1{
+  padding: 15px 0px;
+  margin-left: 90px;
+ }
+ .icon-b{
+
+  margin-top: 20px;
+ }
+ .back{
+  background-color: #FFFBF7;
+  padding-top: 40px;
+  /* padding-bottom: 10px; */
+ }
+ .mobile{
+  width: 1100px;
+  margin: auto;
+ }
+ .img-7{
+  margin-left: 100px;
+ }
+ .mobile-right{
+  padding-left: 100px;
+ }
+ .mobile-content{
+  font-size: 45px;
+ }
+ .font-c{
+  font-size: 17px;
+ }
+ .accordion-item{
+  box-shadow: 0px 0px 1px 0px gray;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  padding: 8px 0px;
+  color: rgb(28, 28, 28);
+
+  
+
+ }
+ .collect3{
+  margin: auto;
+  width: 1100px;
+  
+}
+.search-box{
+  width: 500px;
+}
+.input{
+  width: 100%;
+  border: none;
+  text-underline-position: none;
+  outline: none;
+  
+}
+.radio-1{
+  font-size: 18px;
+}
+.radio-2{
+  margin-left: 60px;
+  font-size: 18px;
+}
+.form{
+  width: 300px;
+}
+ 
+.input-group{
+  position: relative;
+  
+}
+.input-a{
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0px 0px 0px 1px gray;
+  
+
+  outline: none;
+  border: none;
+ 
+
+}
+.input1{
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 0.8px solid gray;
+  outline: none;
+}
+
+.india{
+  width: 110px;
+  box-shadow: 0px 0px 0px 1px gray;
+  /* padding: 6px; */
+  border-radius: 5px;
+}
+.English{
+  width: 120px;
+  box-shadow: 0px 0px 0px 1px gray;
+  /* padding: 6px; */
+  border-radius: 5px;
+  margin-left: 25px;
+}
+.bottom{
+  background-color: #F8F8F8;
+  margin-top: 30px;
+  padding-top: 50px;
+}
+.footer{
+  padding-top: 30px;
+  /* padding-right: 20px; */
+}
+.footer h4{
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.footer-content{
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 13px;
+  color: gray;
+  letter-spacing: 1px;
+}
+.social-icon{
+  font-size: 22px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.border{
+  height: 2px;
+  margin-top: 40px;
+  background-color: gray;
+  
+}
+.footer-content-a{
+  padding-top: 20px;
+  font-size: 13px;
+  line-height: 18px;
+  color: gray;
+  letter-spacing: 1px;
+}
